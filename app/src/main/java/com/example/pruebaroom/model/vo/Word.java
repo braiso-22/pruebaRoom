@@ -12,12 +12,12 @@ public class Word {
     @PrimaryKey
     @NotNull
     @ColumnInfo(name = "word")
-    private String mWord;
+    private String word;
 
     public Word(@NotNull String word) {
-        this.mWord = word;
+        this.word = word;
     }
-    public String getmWord(){
-        return this.mWord;
+    public String getWord(){
+        return this.word;
     }
 }
